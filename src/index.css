@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Assistant', 'Heebo', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.guest-card-dragging {
+  opacity: 0.5;
+  transform: scale(0.97);
+}
+
+.table-drop-active {
+  border-color: #6366f1 !important;
+  background-color: #eef2ff !important;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2);
+}

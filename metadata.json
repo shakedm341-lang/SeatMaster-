@@ -1,0 +1,6 @@
+{
+  "name": "מתכנן הושבה לאירועים - Seating Planner",
+  "description": "אפליקציה אינטראקטיבית לסידור והושבת מוזמנים באירועים ושמחות עם גרירה, ניהול שולחנות וייצוא לאקסל.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
